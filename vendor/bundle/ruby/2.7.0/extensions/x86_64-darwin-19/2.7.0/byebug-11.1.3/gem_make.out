@@ -1,0 +1,19 @@
+current directory: /Users/mallureddy/bank-app/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+/Users/mallureddy/.rvm/rubies/ruby-2.7.3/bin/ruby -I /Users/mallureddy/.rvm/rubies/ruby-2.7.3/lib/ruby/2.7.0 -r ./siteconf20210808-76548-1vxs88m.rb extconf.rb
+creating Makefile
+
+current directory: /Users/mallureddy/bank-app/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/mallureddy/bank-app/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/mallureddy/bank-app/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20210808-76548-ose7f1/byebug

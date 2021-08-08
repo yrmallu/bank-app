@@ -1,0 +1,15 @@
+current directory: /Users/mallureddy/bank-app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/mallureddy/.rvm/rubies/ruby-2.7.3/bin/ruby -I /Users/mallureddy/.rvm/rubies/ruby-2.7.3/lib/ruby/2.7.0 -r ./siteconf20210808-76548-4o8qaz.rb extconf.rb
+creating Makefile
+
+current directory: /Users/mallureddy/bank-app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/mallureddy/bank-app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/mallureddy/bank-app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20210808-76548-sen5c1/skiptrace/internal
