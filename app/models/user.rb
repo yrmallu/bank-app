@@ -14,6 +14,12 @@ class User < ApplicationRecord
 
   validates :password, presence: true, length: { minimum: 8 }
 
+  after_create :add_bank_account
+
+  def add_bank_account
+    create_bank_account
+  end
+
   def to_s
     name
   end

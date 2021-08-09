@@ -7,4 +7,4 @@
         = @user.name
 .row
   .col-md-12
-    = link_to "Account Details", bank_account_path(@bank_account.id), class: "btn btn-lg btn-primary"
+    = link_to "Account Details", bank_account_path(@user&.bank_account&.id), class: "btn btn-lg btn-primary"
