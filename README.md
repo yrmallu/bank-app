@@ -1,24 +1,23 @@
-# README
+# BANK APP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails Banking App for Deposit, withdraw and Transfer of Balance
 
-Things you may want to cover:
+## Prerequisites
 
-* Ruby version
+1) `Ruby version > 2.7`
+2) `Rails version > 6`
+3) `MySQL / PostgreSQL`
 
-* System dependencies
 
-* Configuration
+## Installation
 
-* Database creation
+1) `git clone ...`
+2) `cd bank-app`
+3) `change database.yml as per your database`
+4) `bundle install`
+5) `rake db:setup`
+6) `rails s`
 
-* Database initialization
+## Test
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`bundle exec rspec`
