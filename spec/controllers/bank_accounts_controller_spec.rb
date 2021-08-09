@@ -3,10 +3,21 @@ require 'rails_helper'
 RSpec.describe BankAccountsController, type: :controller do
 
   describe 'GET #show' do
-    it 'returns http success' do
-      bank_account = create(:bank_account)
+    let(:bank_account) { create(:bank_account) }
+    before do
       get :show, params: { id: bank_account.id }
-      expect(response).to have_http_status(:success)
+    end
+
+    it 'is expected to assign user as new instance variable' do
+      expect(assigns[:bank_account]).to be_instance_of(BankAccount)
+    end
+
+    it 'renders new template' do
+      is_expected.to render_template(:show)
+    end
+
+    it 'renders application layout' do
+      is_expected.to render_template(:application)
     end
   end
 

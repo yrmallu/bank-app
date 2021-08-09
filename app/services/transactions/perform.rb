@@ -1,6 +1,6 @@
 module Transactions
   class Perform
-    def initialize(amount:, transaction_type:, bank_account_id:, recipient_id:)
+    def initialize(amount, transaction_type, bank_account_id, recipient_id)
       @amount = amount.try(:to_f)
       @transaction_type = transaction_type
       @bank_account_id = bank_account_id
